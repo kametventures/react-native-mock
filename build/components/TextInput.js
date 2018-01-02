@@ -1,12 +1,11 @@
 var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);
 var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _TextInputState=require('../api/TextInputState');var _TextInputState2=_interopRequireDefault(_TextInputState);
 var _reactTimerMixin=require('react-timer-mixin');var _reactTimerMixin2=_interopRequireDefault(_reactTimerMixin);
 var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);
 var _View=require('./View');var _View2=_interopRequireDefault(_View);
-var _Text=require('./Text');var _Text2=_interopRequireDefault(_Text);
-
-var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
+var _Text=require('./Text');var _Text2=_interopRequireDefault(_Text);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
 var TextInput=(0,_createReactClass2['default'])({
 propTypes:_extends({},

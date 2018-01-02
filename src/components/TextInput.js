@@ -7,8 +7,6 @@ import NativeMethodsMixin from '../mixins/NativeMethodsMixin';
 import View from './View';
 import Text from './Text';
 
-import PropTypes from 'prop-types';
-
 const TextInput = createClass({
   propTypes: {
     ...View.propTypes,

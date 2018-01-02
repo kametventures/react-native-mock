@@ -3,6 +3,7 @@ var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++)
  */
 var _react=require('react');var _react2=_interopRequireDefault(_react);
 var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
+var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);
 
 var _TouchableWithoutFeedback=require('./TouchableWithoutFeedback');var _TouchableWithoutFeedback2=_interopRequireDefault(_TouchableWithoutFeedback);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
@@ -14,7 +15,7 @@ _TouchableWithoutFeedback2['default'].propTypes,{
      * Determines what the opacity of the wrapped view should be when touch is
      * active. Defaults to 0.2.
      */
-activeOpacity:PropTypes.number}),
+activeOpacity:_propTypes2['default'].number}),
 
 
 render:function(){function render(){
