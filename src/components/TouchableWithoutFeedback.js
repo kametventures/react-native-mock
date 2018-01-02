@@ -5,6 +5,7 @@ import React from 'react';
 import createClass from 'create-react-class';
 import EdgeInsetsPropType from '../propTypes/EdgeInsetsPropType';
 import View from './View';
+import PropTypes from 'prop-types';
 
 const TouchableWithoutFeedback = createClass({
   propTypes: {

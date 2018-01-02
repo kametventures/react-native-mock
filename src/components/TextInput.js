@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import createClass from 'create-react-class';
 import TextInputState from '../api/TextInputState';
 import TimerMixin from 'react-timer-mixin';

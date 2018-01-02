@@ -2,6 +2,7 @@
  * https://github.com/facebook/react-native/blob/master/Libraries/Text/Text.js
  */
 import React from 'react';
+import PropTypes from 'prop-types';
 import createClass from 'create-react-class';
 import styleSheetPropType from '../propTypes/StyleSheetPropType';
 import TextStylePropTypes from '../propTypes/TextStylePropTypes';
