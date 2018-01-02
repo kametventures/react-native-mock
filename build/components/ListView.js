@@ -81,12 +81,12 @@ renderSectionHeader:_propTypes2['default'].func,
      * A function that returns the scrollable component in which the list rows
      * are rendered. Defaults to returning a ScrollView with the given props.
      */
-renderScrollComponent:_react2['default'].PropTypes.func.isRequired,
+renderScrollComponent:_propTypes2['default'].func.isRequired,
 /**
      * How early to start rendering rows before they come on screen, in
      * pixels.
      */
-scrollRenderAheadDistance:_react2['default'].PropTypes.number,
+scrollRenderAheadDistance:_propTypes2['default'].number,
 /**
      * (visibleRows, changedRows) => void
      *
@@ -96,13 +96,13 @@ scrollRenderAheadDistance:_react2['default'].PropTypes.number,
      * that have changed their visibility, with true indicating visible, and
      * false indicating the view has moved out of view.
      */
-onChangeVisibleRows:_react2['default'].PropTypes.func,
+onChangeVisibleRows:_propTypes2['default'].func,
 /**
      * A performance optimization for improving scroll perf of
      * large lists, used in conjunction with overflow: 'hidden' on the row
      * containers.  This is enabled by default.
      */
-removeClippedSubviews:_react2['default'].PropTypes.bool,
+removeClippedSubviews:_propTypes2['default'].bool,
 /**
      * An array of child indices determining which children get docked to the
      * top of the screen when scrolling. For example, passing

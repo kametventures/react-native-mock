@@ -9,7 +9,7 @@ gestures:_propTypes2['default'].object,
 springFriction:_propTypes2['default'].number,
 springTension:_propTypes2['default'].number,
 defaultTransitionVelocity:_propTypes2['default'].number,
-animationInterpolators:_react2['default'].PropTypes.object});
+animationInterpolators:_propTypes2['default'].object});
 
 
 var NavigatorSceneConfigs={

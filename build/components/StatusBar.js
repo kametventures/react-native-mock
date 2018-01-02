@@ -14,13 +14,13 @@ var _translucent=false;
 
 var StatusBar=(0,_createReactClass2['default'])({
 propTypes:{
-animated:_react2['default'].PropTypes.bool,
-barStyle:_react2['default'].PropTypes.oneOf(['default','light-content']),
+animated:PropTypes.bool,
+barStyle:PropTypes.oneOf(['default','light-content']),
 backgroundColor:_ColorPropType2['default'],
-hidden:_react2['default'].PropTypes.bool,
-networkActivityIndicatorVisible:_react2['default'].PropTypes.bool,
-showHideTransition:_react2['default'].PropTypes.oneOf(['fade','slide']),
-translucent:_react2['default'].PropTypes.bool},
+hidden:PropTypes.bool,
+networkActivityIndicatorVisible:PropTypes.bool,
+showHideTransition:PropTypes.oneOf(['fade','slide']),
+translucent:PropTypes.bool},
 
 
 statics:{

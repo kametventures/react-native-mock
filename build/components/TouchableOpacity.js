@@ -14,7 +14,7 @@ _TouchableWithoutFeedback2['default'].propTypes,{
      * Determines what the opacity of the wrapped view should be when touch is
      * active. Defaults to 0.2.
      */
-activeOpacity:_react2['default'].PropTypes.number}),
+activeOpacity:PropTypes.number}),
 
 
 render:function(){function render(){

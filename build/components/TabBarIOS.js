@@ -4,7 +4,7 @@ var _createMockComponent=require('./createMockComponent');var _createMockCompone
 
 var TabBarIOS=(0,_createReactClass2['default'])({
 propTypes:{
-children:_react2['default'].PropTypes.node},
+children:PropTypes.node},
 
 statics:{
 Item:(0,_createMockComponent2['default'])('TabBarIOS.Item')},

@@ -8,7 +8,7 @@ const TouchableNativeFeedback = createClass({
   propTypes: {
     ...TouchableWithoutFeedback.propTypes,
 
-    background: React.PropTypes.object
+    background: PropTypes.object
   },
   statics: {
     SelectableBackground() {},

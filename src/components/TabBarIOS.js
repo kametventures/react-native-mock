@@ -4,7 +4,7 @@ import createMockComponent from './createMockComponent';
 
 const TabBarIOS = createClass({
   propTypes: {
-    children: React.PropTypes.node
+    children: PropTypes.node
   },
   statics: {
     Item: createMockComponent('TabBarIOS.Item')

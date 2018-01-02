@@ -8,7 +8,7 @@ var TouchableNativeFeedback=(0,_createReactClass2['default'])({
 propTypes:_extends({},
 _TouchableWithoutFeedback2['default'].propTypes,{
 
-background:_react2['default'].PropTypes.object}),
+background:PropTypes.object}),
 
 statics:{
 SelectableBackground:function(){function SelectableBackground(){}return SelectableBackground;}(),

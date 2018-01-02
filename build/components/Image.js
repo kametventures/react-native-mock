@@ -2,16 +2,16 @@
 
 
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);
 var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _StyleSheetPropType=require('../propTypes/StyleSheetPropType');var _StyleSheetPropType2=_interopRequireDefault(_StyleSheetPropType);
 var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);
 var _EdgeInsetsPropType=require('../propTypes/EdgeInsetsPropType');var _EdgeInsetsPropType2=_interopRequireDefault(_EdgeInsetsPropType);
 var _ImageStylePropTypes=require('../propTypes/ImageStylePropTypes');var _ImageStylePropTypes2=_interopRequireDefault(_ImageStylePropTypes);
-var _ImageResizeMode=require('../propTypes/ImageResizeMode');var _ImageResizeMode2=_interopRequireDefault(_ImageResizeMode);
-
-var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}/**
+var _ImageResizeMode=require('../propTypes/ImageResizeMode');var _ImageResizeMode2=_interopRequireDefault(_ImageResizeMode);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}/**
  * https://github.com/facebook/react-native/blob/master/Libraries/Image/Image.ios.js
- */var Image=(0,_createReactClass2['default'])({
+ */
+var Image=(0,_createReactClass2['default'])({
 propTypes:{
 style:(0,_StyleSheetPropType2['default'])(_ImageStylePropTypes2['default']),
 /**
