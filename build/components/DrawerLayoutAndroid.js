@@ -2,13 +2,13 @@ var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++)
  *https://github.com/facebook/react-native/blob/master/Libraries/Components/DrawerAndroid/DrawerLayoutAndroid.android.js
  */
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);
 var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);
 var _View=require('./View');var _View2=_interopRequireDefault(_View);
 var _UIManager=require('../NativeModules/UIManager');var _UIManager2=_interopRequireDefault(_UIManager);
 var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_interopRequireDefault(_ColorPropType);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var ReactPropTypes=_react2['default'].PropTypes;
 var DrawerConsts=_UIManager2['default'].AndroidDrawerLayout.Constants;
 
 var DrawerLayoutAndroid=(0,_createReactClass2['default'])({
@@ -20,7 +20,7 @@ _View2['default'].propTypes,{
      *   - 'none' (the default), drags do not dismiss the keyboard.
      *   - 'on-drag', the keyboard is dismissed when a drag begins.
      */
-keyboardDismissMode:ReactPropTypes.oneOf([
+keyboardDismissMode:_propTypes2['default'].oneOf([
 'none',// default
 'on-drag']),
 
@@ -39,7 +39,7 @@ drawerBackgroundColor:_ColorPropType2['default'],
 /**
      * Specifies the side of the screen from which the drawer will slide in.
      */
-drawerPosition:ReactPropTypes.oneOf([
+drawerPosition:_propTypes2['default'].oneOf([
 DrawerConsts.DrawerPosition.Left,
 DrawerConsts.DrawerPosition.Right]),
 
@@ -47,7 +47,7 @@ DrawerConsts.DrawerPosition.Right]),
      * Specifies the width of the drawer, more precisely the width of the view that be pulled in
      * from the edge of the window.
      */
-drawerWidth:ReactPropTypes.number,
+drawerWidth:_propTypes2['default'].number,
 /**
      * Specifies the lock mode of the drawer. The drawer can be locked in 3 states:
      * - unlocked (default), meaning that the drawer will respond (open/close) to touch gestures.
@@ -55,7 +55,7 @@ drawerWidth:ReactPropTypes.number,
      * - locked-open, meaning that the drawer will stay opened and not respond to gestures.
      * The drawer may still be opened and closed programmatically (`openDrawer`/`closeDrawer`).
      */
-drawerLockMode:ReactPropTypes.oneOf([
+drawerLockMode:_propTypes2['default'].oneOf([
 'unlocked',
 'locked-closed',
 'locked-open']),
@@ -63,7 +63,7 @@ drawerLockMode:ReactPropTypes.oneOf([
 /**
      * Function called whenever there is an interaction with the navigation view.
      */
-onDrawerSlide:ReactPropTypes.func,
+onDrawerSlide:_propTypes2['default'].func,
 /**
      * Function called when the drawer state has changed. The drawer can be in 3 states:
      * - idle, meaning there is no interaction with the navigation view happening at the time
@@ -71,19 +71,19 @@ onDrawerSlide:ReactPropTypes.func,
      * - settling, meaning that there was an interaction with the navigation view, and the
      * navigation view is now finishing its closing or opening animation
      */
-onDrawerStateChanged:ReactPropTypes.func,
+onDrawerStateChanged:_propTypes2['default'].func,
 /**
      * Function called whenever the navigation view has been opened.
      */
-onDrawerOpen:ReactPropTypes.func,
+onDrawerOpen:_propTypes2['default'].func,
 /**
      * Function called whenever the navigation view has been closed.
      */
-onDrawerClose:ReactPropTypes.func,
+onDrawerClose:_propTypes2['default'].func,
 /**
      * The navigation view that will be rendered to the side of the screen and can be pulled in.
      */
-renderNavigationView:ReactPropTypes.func.isRequired,
+renderNavigationView:_propTypes2['default'].func.isRequired,
 
 /**
      * Make the drawer take the entire screen and draw the background of the

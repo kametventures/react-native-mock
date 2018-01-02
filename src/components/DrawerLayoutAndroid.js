@@ -2,13 +2,13 @@
  *https://github.com/facebook/react-native/blob/master/Libraries/Components/DrawerAndroid/DrawerLayoutAndroid.android.js
  */
 import React from 'react';
+import PropTypes from 'prop-types';
 import createClass from 'create-react-class';
 import NativeMethodsMixin from '../mixins/NativeMethodsMixin';
 import View from './View';
 import UIManager from '../NativeModules/UIManager';
 import ColorPropType from '../propTypes/ColorPropType';
 
-const ReactPropTypes = React.PropTypes;
 const DrawerConsts = UIManager.AndroidDrawerLayout.Constants;
 
 const DrawerLayoutAndroid = createClass({
@@ -20,7 +20,7 @@ const DrawerLayoutAndroid = createClass({
      *   - 'none' (the default), drags do not dismiss the keyboard.
      *   - 'on-drag', the keyboard is dismissed when a drag begins.
      */
-    keyboardDismissMode: ReactPropTypes.oneOf([
+    keyboardDismissMode: PropTypes.oneOf([
       'none', // default
       'on-drag',
     ]),
@@ -39,7 +39,7 @@ const DrawerLayoutAndroid = createClass({
     /**
      * Specifies the side of the screen from which the drawer will slide in.
      */
-    drawerPosition: ReactPropTypes.oneOf([
+    drawerPosition: PropTypes.oneOf([
       DrawerConsts.DrawerPosition.Left,
       DrawerConsts.DrawerPosition.Right
     ]),
@@ -47,7 +47,7 @@ const DrawerLayoutAndroid = createClass({
      * Specifies the width of the drawer, more precisely the width of the view that be pulled in
      * from the edge of the window.
      */
-    drawerWidth: ReactPropTypes.number,
+    drawerWidth: PropTypes.number,
     /**
      * Specifies the lock mode of the drawer. The drawer can be locked in 3 states:
      * - unlocked (default), meaning that the drawer will respond (open/close) to touch gestures.
@@ -55,7 +55,7 @@ const DrawerLayoutAndroid = createClass({
      * - locked-open, meaning that the drawer will stay opened and not respond to gestures.
      * The drawer may still be opened and closed programmatically (`openDrawer`/`closeDrawer`).
      */
-    drawerLockMode: ReactPropTypes.oneOf([
+    drawerLockMode: PropTypes.oneOf([
       'unlocked',
       'locked-closed',
       'locked-open'
@@ -63,7 +63,7 @@ const DrawerLayoutAndroid = createClass({
     /**
      * Function called whenever there is an interaction with the navigation view.
      */
-    onDrawerSlide: ReactPropTypes.func,
+    onDrawerSlide: PropTypes.func,
     /**
      * Function called when the drawer state has changed. The drawer can be in 3 states:
      * - idle, meaning there is no interaction with the navigation view happening at the time
@@ -71,19 +71,19 @@ const DrawerLayoutAndroid = createClass({
      * - settling, meaning that there was an interaction with the navigation view, and the
      * navigation view is now finishing its closing or opening animation
      */
-    onDrawerStateChanged: ReactPropTypes.func,
+    onDrawerStateChanged: PropTypes.func,
     /**
      * Function called whenever the navigation view has been opened.
      */
-    onDrawerOpen: ReactPropTypes.func,
+    onDrawerOpen: PropTypes.func,
     /**
      * Function called whenever the navigation view has been closed.
      */
-    onDrawerClose: ReactPropTypes.func,
+    onDrawerClose: PropTypes.func,
     /**
      * The navigation view that will be rendered to the side of the screen and can be pulled in.
      */
-    renderNavigationView: ReactPropTypes.func.isRequired,
+    renderNavigationView: PropTypes.func.isRequired,
 
     /**
      * Make the drawer take the entire screen and draw the background of the
