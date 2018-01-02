@@ -1,4 +1,5 @@
 var _jsxFileName='src/components/ListView.js';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _ScrollResponder=require('../mixins/ScrollResponder');var _ScrollResponder2=_interopRequireDefault(_ScrollResponder);
 var _reactTimerMixin=require('react-timer-mixin');var _reactTimerMixin2=_interopRequireDefault(_reactTimerMixin);
 var _ScrollView=require('./ScrollView');var _ScrollView2=_interopRequireDefault(_ScrollView);
@@ -8,7 +9,7 @@ var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_pro
 var SCROLLVIEW_REF='listviewscroll';
 
 
-var ListView=_react2['default'].createClass({displayName:'ListView',
+var ListView=(0,_createReactClass2['default'])({
 propTypes:_extends({},
 _ScrollView2['default'].propTypes,{
 
@@ -151,7 +152,7 @@ this.refs[SCROLLVIEW_REF].setNativeProps(props);
 
 getDefaultProps:function(){function getDefaultProps(){
 return{
-renderScrollComponent:function(){function renderScrollComponent(props){return _react2['default'].createElement(_ScrollView2['default'],_extends({},props,{__source:{fileName:_jsxFileName,lineNumber:154}}));}return renderScrollComponent;}()};
+renderScrollComponent:function(){function renderScrollComponent(props){return _react2['default'].createElement(_ScrollView2['default'],_extends({},props,{__source:{fileName:_jsxFileName,lineNumber:155}}));}return renderScrollComponent;}()};
 
 }return getDefaultProps;}(),
 

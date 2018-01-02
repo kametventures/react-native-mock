@@ -2,16 +2,17 @@
 
 
 var _react=require('react');var _react2=_interopRequireDefault(_react);
-var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_interopRequireDefault(_ColorPropType);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}/**
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
+var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_interopRequireDefault(_ColorPropType);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
+
+
+var _backgroundColor='';/**
  * https://github.com/facebook/react-native/blob/master/Libraries/Components/StatusBar/StatusBar.js
- */
-var _backgroundColor='';
-var _barStyle={};
-var _hidden=false;
+ */var _barStyle={};var _hidden=false;
 var _networkActivityIndicatorVisible=false;
 var _translucent=false;
 
-var StatusBar=_react2['default'].createClass({displayName:'StatusBar',
+var StatusBar=(0,_createReactClass2['default'])({
 propTypes:{
 animated:_react2['default'].PropTypes.bool,
 barStyle:_react2['default'].PropTypes.oneOf(['default','light-content']),

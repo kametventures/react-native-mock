@@ -1,4 +1,5 @@
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _UIManager=require('../NativeModules/UIManager');var _UIManager2=_interopRequireDefault(_UIManager);
 var _keymirror=require('keymirror');var _keymirror2=_interopRequireDefault(_keymirror);
 

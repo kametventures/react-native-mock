@@ -2,6 +2,7 @@ var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++)
  * https://github.com/facebook/react-native/blob/master/Libraries/Text/TextStylePropTypes.js
  */
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _ColorPropType=require('./ColorPropType');var _ColorPropType2=_interopRequireDefault(_ColorPropType);
 var _ViewStylePropTypes=require('./ViewStylePropTypes');var _ViewStylePropTypes2=_interopRequireDefault(_ViewStylePropTypes);
 

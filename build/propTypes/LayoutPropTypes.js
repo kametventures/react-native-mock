@@ -2,6 +2,7 @@
 
 
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
@@ -16,9 +17,9 @@ var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_pro
  *
  * These properties are a subset of our styles that are consumed by the layout
  * algorithm and affect the positioning and sizing of views.
- *//**
- * https://github.com/facebook/react-native/blob/master/Libraries/StyleSheet/LayoutPropTypes.js
- */var LayoutPropTypes={width:_propTypes2['default'].number,
+ */
+var LayoutPropTypes={
+width:_propTypes2['default'].number,
 height:_propTypes2['default'].number,
 top:_propTypes2['default'].number,
 left:_propTypes2['default'].number,
@@ -91,7 +92,7 @@ alignSelf:_propTypes2['default'].oneOf([
 
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/flex
-flex:_propTypes2['default'].number};
-
-
+flex:_propTypes2['default'].number};/**
+ * https://github.com/facebook/react-native/blob/master/Libraries/StyleSheet/LayoutPropTypes.js
+ */
 module.exports=LayoutPropTypes;

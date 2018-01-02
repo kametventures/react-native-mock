@@ -1,4 +1,5 @@
 var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _EdgeInsetsPropType=require('../propTypes/EdgeInsetsPropType');var _EdgeInsetsPropType2=_interopRequireDefault(_EdgeInsetsPropType);
 var _PointPropType=require('../propTypes/PointPropType');var _PointPropType2=_interopRequireDefault(_PointPropType);
 var _ScrollResponder=require('../mixins/ScrollResponder');var _ScrollResponder2=_interopRequireDefault(_ScrollResponder);
@@ -12,7 +13,7 @@ var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_pro
 var SCROLLVIEW='ScrollView';
 var INNERVIEW='InnerScrollView';
 
-var ScrollView=_react2['default'].createClass({displayName:'ScrollView',
+var ScrollView=(0,_createReactClass2['default'])({
 propTypes:_extends({},
 _View2['default'].propTypes,{
 /**

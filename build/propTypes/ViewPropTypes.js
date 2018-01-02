@@ -3,6 +3,7 @@
 
 
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _EdgeInsetsPropType=require('./EdgeInsetsPropType');var _EdgeInsetsPropType2=_interopRequireDefault(_EdgeInsetsPropType);
 var _StyleSheetPropType=require('./StyleSheetPropType');var _StyleSheetPropType2=_interopRequireDefault(_StyleSheetPropType);
 var _ViewStylePropTypes=require('./ViewStylePropTypes');var _ViewStylePropTypes2=_interopRequireDefault(_ViewStylePropTypes);
@@ -10,9 +11,9 @@ var _ViewAccessibility=require('../components/ViewAccessibility');
 
 
 
-var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}var stylePropType=(0,_StyleSheetPropType2['default'])(_ViewStylePropTypes2['default']);/**
+var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}/**
  * https://github.com/facebook/react-native/blob/master/Libraries/Components/View/ViewPropTypes.js
- */var ViewPropTypes={
+ */var stylePropType=(0,_StyleSheetPropType2['default'])(_ViewStylePropTypes2['default']);var ViewPropTypes={
 /**
    * When `true`, indicates that the view is an accessibility element. By default,
    * all the touchable elements are accessible.

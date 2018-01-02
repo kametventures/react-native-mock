@@ -2,6 +2,7 @@ var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++)
  * https://github.com/facebook/react-native/blob/master/Libraries/react-native/react-native.js
  */
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 
 var _createMockComponent=require('./components/createMockComponent');var _createMockComponent2=_interopRequireDefault(_createMockComponent);
 var _defineGlobalProperty=require('./defineGlobalProperty');var _defineGlobalProperty2=_interopRequireDefault(_defineGlobalProperty);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}

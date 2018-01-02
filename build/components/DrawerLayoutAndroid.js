@@ -2,6 +2,7 @@ var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++)
  *https://github.com/facebook/react-native/blob/master/Libraries/Components/DrawerAndroid/DrawerLayoutAndroid.android.js
  */
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);
 var _View=require('./View');var _View2=_interopRequireDefault(_View);
 var _UIManager=require('../NativeModules/UIManager');var _UIManager2=_interopRequireDefault(_UIManager);
@@ -10,7 +11,7 @@ var _ColorPropType=require('../propTypes/ColorPropType');var _ColorPropType2=_in
 var ReactPropTypes=_react2['default'].PropTypes;
 var DrawerConsts=_UIManager2['default'].AndroidDrawerLayout.Constants;
 
-var DrawerLayoutAndroid=_react2['default'].createClass({displayName:'DrawerLayoutAndroid',
+var DrawerLayoutAndroid=(0,_createReactClass2['default'])({
 
 propTypes:_extends({},
 _View2['default'].propTypes,{

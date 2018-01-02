@@ -1,5 +1,6 @@
 var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _EdgeInsetsPropType=require('../propTypes/EdgeInsetsPropType');var _EdgeInsetsPropType2=_interopRequireDefault(_EdgeInsetsPropType);
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _View=require('./View');var _View2=_interopRequireDefault(_View);
 var _ScrollView=require('./ScrollView');var _ScrollView2=_interopRequireDefault(_ScrollView);
 var _WebViewManager=require('../NativeModules/WebViewManager');var _WebViewManager2=_interopRequireDefault(_WebViewManager);
@@ -19,7 +20,7 @@ other:_WebViewManager2['default'].NavigationType.Other};
 
 var JSNavigationScheme=_WebViewManager2['default'].JSNavigationScheme;
 
-var WebView=_react2['default'].createClass({displayName:'WebView',
+var WebView=(0,_createReactClass2['default'])({
 propTypes:_extends({},
 _View2['default'].propTypes,{
 url:_propTypes2['default'].string,

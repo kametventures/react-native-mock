@@ -1,4 +1,5 @@
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _propTypes=require('prop-types');var _propTypes2=_interopRequireDefault(_propTypes);
 var _createMockComponent=require('./createMockComponent');var _createMockComponent2=_interopRequireDefault(_createMockComponent);
 var _View=require('./View');var _View2=_interopRequireDefault(_View);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
@@ -24,7 +25,7 @@ VerticalUpSwipeJump:NavigatorSceneConfigType,
 VerticalDownSwipeJump:NavigatorSceneConfigType};
 
 
-var Navigator=_react2['default'].createClass({displayName:'Navigator',
+var Navigator=(0,_createReactClass2['default'])({
 propTypes:{
 /**
      * Optional function that allows configuration about scene animations and

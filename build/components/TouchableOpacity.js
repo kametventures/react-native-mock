@@ -2,10 +2,11 @@ var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++)
  * https://github.com/facebook/react-native/blob/master/Libraries/Components/Touchable/TouchableOpacity.js
  */
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 
 var _TouchableWithoutFeedback=require('./TouchableWithoutFeedback');var _TouchableWithoutFeedback2=_interopRequireDefault(_TouchableWithoutFeedback);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var TouchableOpacity=_react2['default'].createClass({displayName:'TouchableOpacity',
+var TouchableOpacity=(0,_createReactClass2['default'])({
 propTypes:_extends({},
 _TouchableWithoutFeedback2['default'].propTypes,{
 

@@ -3,6 +3,7 @@ var _Platform=require('../plugins/Platform');var _Platform2=_interopRequireDefau
 var _Dimensions=require('../api/Dimensions');var _Dimensions2=_interopRequireDefault(_Dimensions);
 var _DeviceEventEmitter=require('../plugins/DeviceEventEmitter');var _DeviceEventEmitter2=_interopRequireDefault(_DeviceEventEmitter);
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _invariant=require('invariant');var _invariant2=_interopRequireDefault(_invariant);
 var _warning=require('warning');var _warning2=_interopRequireDefault(_warning);
 var _TextInputState=require('../api/TextInputState');var _TextInputState2=_interopRequireDefault(_TextInputState);

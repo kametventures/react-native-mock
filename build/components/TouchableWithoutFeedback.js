@@ -2,10 +2,11 @@
 
 
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _EdgeInsetsPropType=require('../propTypes/EdgeInsetsPropType');var _EdgeInsetsPropType2=_interopRequireDefault(_EdgeInsetsPropType);
-var _View=require('./View');var _View2=_interopRequireDefault(_View);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
-
-var TouchableWithoutFeedback=_react2['default'].createClass({displayName:'TouchableWithoutFeedback',
+var _View=require('./View');var _View2=_interopRequireDefault(_View);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}/**
+ * https://github.com/facebook/react-native/blob/master/Libraries/Components/Touchable/TouchableWithoutFeedback.js
+ */var TouchableWithoutFeedback=(0,_createReactClass2['default'])({
 propTypes:{
 accessible:_react2['default'].PropTypes.bool,
 accessibilityComponentType:_react2['default'].PropTypes.oneOf(_View2['default'].AccessibilityComponentType),
@@ -65,7 +66,7 @@ hitSlop:_EdgeInsetsPropType2['default']},
 
 render:function(){function render(){
 return null;
-}return render;}()});/**
- * https://github.com/facebook/react-native/blob/master/Libraries/Components/Touchable/TouchableWithoutFeedback.js
- */
+}return render;}()});
+
+
 module.exports=TouchableWithoutFeedback;

@@ -2,13 +2,14 @@
 
 
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _StyleSheetPropType=require('../propTypes/StyleSheetPropType');var _StyleSheetPropType2=_interopRequireDefault(_StyleSheetPropType);
 var _TextStylePropTypes=require('../propTypes/TextStylePropTypes');var _TextStylePropTypes2=_interopRequireDefault(_TextStylePropTypes);
-var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}/**
- * https://github.com/facebook/react-native/blob/master/Libraries/Text/Text.js
- */var stylePropType=(0,_StyleSheetPropType2['default'])(_TextStylePropTypes2['default']);
+var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}
 
-var Text=_react2['default'].createClass({displayName:'Text',
+var stylePropType=(0,_StyleSheetPropType2['default'])(_TextStylePropTypes2['default']);/**
+ * https://github.com/facebook/react-native/blob/master/Libraries/Text/Text.js
+ */var Text=(0,_createReactClass2['default'])({
 propTypes:{
 /**
      * Used to truncate the text with an ellipsis after computing the text

@@ -2,6 +2,7 @@ var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++)
  * https://github.com/facebook/react-native/blob/master/Libraries/Components/View/View.js
  */
 var _react=require('react');var _react2=_interopRequireDefault(_react);
+var _createReactClass=require('create-react-class');var _createReactClass2=_interopRequireDefault(_createReactClass);
 var _ViewAccessibility=require('./ViewAccessibility');var _ViewAccessibility2=_interopRequireDefault(_ViewAccessibility);
 var _NativeMethodsMixin=require('../mixins/NativeMethodsMixin');var _NativeMethodsMixin2=_interopRequireDefault(_NativeMethodsMixin);
 var _ViewPropTypes=require('../propTypes/ViewPropTypes');var _ViewPropTypes2=_interopRequireDefault(_ViewPropTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{'default':obj};}var
@@ -20,7 +21,7 @@ AccessibilityTraits:AccessibilityTraits,
 forceTouchAvailable:forceTouchAvailable};
 
 
-var View=_react2['default'].createClass({displayName:'View',
+var View=(0,_createReactClass2['default'])({
 propTypes:_ViewPropTypes2['default'],
 
 mixins:[_NativeMethodsMixin2['default']],
